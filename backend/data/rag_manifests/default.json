@@ -1,0 +1,11 @@
+[
+  {
+    "document_id": "764d42f9-40cd-43a9-a0d1-d9d29c83f47b",
+    "filename": "sample_rag_test_document.md",
+    "file_type": "md",
+    "file_size": 2195,
+    "chunk_count": 2,
+    "created_at": "2026-10-19T14:41:16.990039+00:00",
+    "status": "indexed"
+  }
+]

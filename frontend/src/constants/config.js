@@ -1,0 +1,9 @@
+export const API_BASE_URL = 'http://127.0.0.1:8000'
+export const DEFAULT_CENTER = [21.0285, 105.8542] // Hà Nội; HCM: [10.7769, 106.7009]
+export const DEFAULT_ZOOM = 12
+export const TILE_LIGHT = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+export const TILE_DARK = TILE_LIGHT // OSM không có tile tối, giả lập bằng CSS (bước 2)
+export const TILE_ATTR = '&copy; OpenStreetMap contributors'
+export const DEFAULT_ALGO = { population: 100, generations: 200, mutation_rate: 0.1, capacity: 1000, time_weight: 0.5, mode: 'spatiotemporal' }
+// true = dùng dữ liệu giả (constants/mockData.js) để xem giao diện khi backend chưa nối
+export const USE_MOCK = false
